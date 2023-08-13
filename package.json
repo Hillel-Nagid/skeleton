@@ -1,0 +1,36 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "A react library that provides any react app a skeleton component for components in loading state",
+  "main": "dist/skeleton.js",
+  "module": "dist/skeleton.mjs",
+  "typings": "dist/skeleton.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "React",
+    "Skeleton",
+    "loading",
+    "component"
+  ],
+  "author": "Hillel Nagid",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.20",
+    "esbuild": "^0.19.1",
+    "react": "^18.2.0",
+    "rollup": "^3.28.0",
+    "rollup-plugin-dts": "^5.3.1",
+    "rollup-plugin-esbuild": "^5.0.0",
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "dist"
+  ],
+  "types": "dist/skeleton.d.ts",
+  "dependencies": {
+    "rollup-plugin-import-css": "^3.3.1"
+  }
+}

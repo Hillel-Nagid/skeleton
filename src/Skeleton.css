@@ -1,0 +1,5 @@
+@keyframes shine {
+  to {
+    background-position: 130% 0, /* move highlight to right */ 0 0;
+  }
+}
