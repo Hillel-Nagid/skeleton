@@ -1,5 +1,8 @@
 {
-  "name": "react-skeleton",
+  "name": "@Hillel-Nagid/skeleton",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Hillel-Nagid"
+  },
   "version": "1.0.0",
   "description": "A react library that provides any react app a skeleton component for components in loading state",
   "main": "dist/skeleton.js",
